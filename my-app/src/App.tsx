@@ -19,7 +19,7 @@ function App() {
   const [questions, setQuestions] = useState([]);
   const [number, setNumber] = useState(0);
   const [userAnswers, setUserAnswers] = useState([]);
-  const [score. setScore] = useState(0);
+  const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(true);
 
   console.log(fetchQuizQuestions(Total_Questions, Difficulty.EASY))
@@ -40,12 +40,12 @@ function App() {
 
   return (
     <div className="App">
-     <h1>TRIVIA QUIZ</h1>
+     <h1>TRIVIA FUN QUIZ</h1>
      <button className="start" onClick={startQuiz}>
-       Start Question
+       Start Quiz
      </button>
      <p className="score">Score:</p>
-     <p>Question Generator ...</p>
+     <p>Loading ...</p>
      {/* <QuizCard 
       questionNumber={number + 1}
       totalQuestions={Total_Questions}
