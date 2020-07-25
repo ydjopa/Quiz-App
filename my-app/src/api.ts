@@ -10,7 +10,7 @@ export type Question = {
   type: string;
 }
 
-// Get correct and incorrect answer in the same array
+// Get correct and incorrect answers in the same array
 export type QuestionState = Question & { answers: string[] };
 
 

@@ -9,6 +9,7 @@ import QuizCard from './components/QuizCard';
 
 // Types Import
 import { QuestionState, Difficulty } from './api';
+import { createLanguageServiceSourceFile } from 'typescript';
 
 type AnswerObject = {
   question: string;
@@ -26,13 +27,27 @@ function App() {
   const [number, setNumber] = useState(0);
   const [userAnswers, setUserAnswers] = useState<AnswerObject[]>([]);
   const [score, setScore] = useState(0);
-  const [gameOver, setGameOver] = useState(true);
+  const [endOfQuiz, setEndOfQuiz] = useState(true);
 
   console.log(fetchQuizQuestions(Total_Questions, Difficulty.EASY))
 
   const startQuiz = async () => {
+    setLoading(true);
+    setEndOfQuiz(false);
 
-  }
+    const newQuestions = await fetchQuizQuestions(
+      Total_Questions,
+      Difficulty.EASY
+    );
+
+// Don't forget to do the Error handing 
+
+    setQuestions(newQuestions);
+    setScore(0);
+    setUserAnswers([]);
+    setNumber(0);
+    setLoading(false);
+  };
 
 
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement>) => {
