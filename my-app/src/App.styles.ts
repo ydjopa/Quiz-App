@@ -24,12 +24,12 @@ body {
 `;
 
 export const Wrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 
-  > p {
-   color: #fff;
+> p {
+  color: #211a06;
 }
 
 .score {
@@ -39,7 +39,8 @@ export const Wrapper = styled.div`
 }
 
 h1 {
-  font-family: Montserrat, Fascinated Inline, Heattenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Montserrat, Fascinated Inline, Heattenschweiler,
+    "Arial Narrow Bold", sans-serif;
   background-image: linear-gradient(180deg, #fff, #87f1ff);
   background-size: 100%;
   background-clip: text;
@@ -54,10 +55,11 @@ h1 {
   margin: 20px;
 }
 p {
-  color: #fff;
+  color: #211a06;
 }
 
-.start, .next {
+.start,
+.next {
   cursor: pointer;
   background: linear-gradient(180deg, #fff, #ffcc91);
   border: 2px solid #d38558;
