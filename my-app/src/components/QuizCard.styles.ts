@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  max-width: 1100px;
-  background: #fcba03;
-  border-radius: 10px;
-  border: 2px solid #0085a3;
-  padding: 20px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
-  text-align: center;
+max-width: 1100px;
+background: #fcba03;
+border-radius: 10px;
+border: 2px solid #0085a3;
+padding: 20px;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+text-align: center;
 
-  p {
-    font-size: 1rem;
-  }
+p {
+  font-size: 1rem;
+}
 `;
 
 type ButtonWrapperProps = {
@@ -31,7 +31,7 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
     cursor: pointer;
     user-select: none;
     font-size: 0.8rem;
-    width: 100px;
+    width: 400px;
     height: 40px;
     margin: 5px 0;
     

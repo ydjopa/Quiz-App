@@ -98,7 +98,7 @@ function App() {
           </button>
         ) : null}
         {!endOfQuiz ? <p className="score">Score: {score}</p> : null}
-        {loading && <p>Loading ...</p>}
+        {loading && <h3>Loading ...</h3>}
         {!loading && !endOfQuiz && (
         <QuizCard 
           questionNumber={number + 1}
