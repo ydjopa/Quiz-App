@@ -100,23 +100,23 @@ function App() {
         {!endOfQuiz ? <p className="score">Score: {score}</p> : null}
         {loading && <h3>Loading ...</h3>}
         {!loading && !endOfQuiz && (
-        <QuizCard 
-          questionNumber={number + 1}
-          totalQuestions={Total_Questions}
-          questions={questions[number].question}
-          answers={questions[number].answers}
-          userAnswer={userAnswers ? userAnswers[number] : undefined}
-          callback={checkAnswer}
+          <QuizCard
+            questionNumber={number + 1}
+            totalQuestions={Total_Questions}
+            questions={questions[number].question}
+            answers={questions[number].answers}
+            userAnswer={userAnswers ? userAnswers[number] : undefined}
+            callback={checkAnswer}
           />
-      )}
-      {!endOfQuiz && 
-      !loading && 
-      userAnswers.length === number + 1 && 
-      number !== Total_Questions - 1 ? (
-        <button className="next" onClick={nextQuestion}>
-          Next Question
-        </button>
-      ) : null}
+        )}
+        {!endOfQuiz &&
+        !loading &&
+        userAnswers.length === number + 1 &&
+        number !== Total_Questions - 1 ? (
+          <button className="next" onClick={nextQuestion}>
+            Next Question
+          </button>
+        ) : null}
       </Wrapper>
     </>
   );

@@ -1,11 +1,15 @@
+// Using Global Style
 import styled, { createGlobalStyle } from 'styled-components';
-
+// Using Background Image
 import BgImage from './img/bg.jpg'; 
+
+
 
 export const GlobalStyle = createGlobalStyle`
 html {
   height: 100%;
   display: flex;
+  justify-content: center;
   margin: 0px;
   padding: 0px;
 }
@@ -16,8 +20,9 @@ body {
   background-size: cover;
   margin: 100hr;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+  
 }
 
 * {
@@ -45,7 +50,7 @@ align-items: center;
     rgba(0, 0, 0, 0.2) 80%
   );
   padding: 10px;
-  -webkit-text-stroke: 1px #f7be20;
+  -webkit-text-stroke: 1px #f7be20;I
 }
 
 h1 {
@@ -75,6 +80,12 @@ h3 {
   color: #ffff00; 
   font-size: 2rem;
 }
+
+button,
+span {
+  font-size: 1rem;
+}
+
 .start,
 .next {
   cursor: pointer;
