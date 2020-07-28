@@ -13,8 +13,7 @@ import { QuestionState, Difficulty } from './api';
 // Styles
 import { GlobalStyle, Wrapper } from './App.styles';
 
-// Typescript Import
-import { createLanguageServiceSourceFile } from 'typescript';
+
 
 export type AnswerObject = {
   question: string;
@@ -97,7 +96,7 @@ function App() {
             Start Quiz
           </button>
         ) : null}
-        {!endOfQuiz ? <p className="score">Score: {score}</p> : null}
+        {!endOfQuiz ? <p className="score">Your Score: {score}</p> : null}
         {loading && <h3>Loading ...</h3>}
         {!loading && !endOfQuiz && (
           <QuizCard
