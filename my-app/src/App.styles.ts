@@ -40,16 +40,16 @@ align-items: center;
 }
 
 .score {
-  color: #fff;
+  color: #f76020;
   font-size: 3rem;
-  margin: 10px;
+  margin: 30px;
   background: linear-gradient(
-    100deg,
+    200deg,
     rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0.2) 80%
+    rgba(0, 0, 0, 0.2) 120%
   );
   padding: 10px;
-  -webkit-text-stroke: 1px #f7be20;I
+  -webkit-text-stroke: 2px #f7be20;
 }
 
 h1 {
@@ -58,10 +58,10 @@ h1 {
   font-size: 75px;
   font-weight: bolder;
   text-align: center;
-  margin: 20px;
+  margin: 0px;
   padding: 10px;
   background: linear-gradient(
-    100deg,
+    170deg,
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0.2) 80%
   );
