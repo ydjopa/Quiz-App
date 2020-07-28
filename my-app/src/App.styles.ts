@@ -4,7 +4,6 @@ import styled, { createGlobalStyle } from 'styled-components';
 import BgImage from './img/bg.jpg'; 
 
 
-
 export const GlobalStyle = createGlobalStyle`
 html {
   height: 100%;
