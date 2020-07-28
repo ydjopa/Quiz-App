@@ -44,9 +44,9 @@ align-items: center;
   font-size: 3rem;
   margin: 30px;
   background: linear-gradient(
-    200deg,
+    220deg,
     rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0.2) 120%
+    rgba(0, 0, 0, 0.2) 180%
   );
   padding: 10px;
   -webkit-text-stroke: 2px #f7be20;
@@ -70,19 +70,29 @@ h1 {
   color: #f76420;
 }
 
-p{
+p {
   color: #211a06;
   font-size: 20px;
 }
 
 h3 {
-  color: #ffff00; 
+  color: #ffff00;
   font-size: 2rem;
 }
 
 button,
 span {
   font-size: 1rem;
+}
+
+.kMPOdi {
+  max-width: 1100px;
+  background: #fcba03;
+  border-radius: 10px;
+  border: 2px solid #f76420;
+  padding: 20px;
+  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.75);
+  text-align: center;
 }
 
 .start,
