@@ -1,7 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
 ### User Stories
 - As a constant learner playing quiz game is essential so that I can better concentrate, identify gaps in knowledge, build confidence and help retain information.
 - As a Student, Trivia quiz is the perfect quiz game for having fun and learning new things at the same time.
@@ -13,6 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - CSS
 - JavaScript
 - TypeScript and JavaScript dictionary for cspell.
+
+## Available Scripts
 
 In the project directory, you can run:
 
