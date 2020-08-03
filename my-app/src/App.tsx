@@ -11,7 +11,7 @@ import QuizCard from './components/QuizCard';
 import { QuestionState, Difficulty } from './api';
 
 // Styles
-import { GlobalStyle, Wrapper } from './App.styles';
+import { GlobalStyle, Wrapper } from './AppDrag.styles';
 
 
 
@@ -88,8 +88,10 @@ function App() {
 
   return (
     <>
-      <GlobalStyle />
-      <Wrapper>
+          <GlobalStyle />
+          <div className="container py-5 my-5">
+          <Wrapper>
+          
         <h1>TRIVIA FUN QUIZ</h1>
         {endOfQuiz || userAnswers.length === Total_Questions ? (
           <button className="start" onClick={startQuiz}>
@@ -116,10 +118,14 @@ function App() {
             Next Question
           </button>
         ) : null}
-      </Wrapper>
+              </Wrapper>
+          </div>
     </>
   );
 
 }
+
+
+
 
 export default App;

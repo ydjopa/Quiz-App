@@ -1,7 +1,8 @@
 // Using Global Style
 import styled, { createGlobalStyle } from 'styled-components';
 // Using Background Image
-import BgImage from './img/bg.jpg'; 
+import BgImage from './img/bg.jpg';
+
 
 
 export const GlobalStyle = createGlobalStyle`
@@ -17,7 +18,6 @@ html {
 body {
   background-image: url(${BgImage});
   background-size: cover;
-  margin: 100hr;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,8 @@ body {
   box-sizing: border-box;
   font-family: 'Permanent+Marker', Montserrat, sans-serif;
 }
+
+
 `;
 
 export const Wrapper = styled.div`
@@ -111,4 +113,7 @@ span {
 .start {
   max-width: 200px;
 }
+
+
+
 `;
