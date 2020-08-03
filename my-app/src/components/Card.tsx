@@ -3,13 +3,6 @@ import { useDrag, useDrop } from 'react-dnd'
 import { ItemTypesNew } from './ItemTypesNew'
 
 
-const style = {
-    border: '1px dashed gray',
-    padding: '0.5rem 1rem',
-    marginBottom: '.5rem',
-    backgroundColor: 'white',
-    cursor: 'move',
-}
 
 export interface CardProps {
     id: string
@@ -32,8 +25,7 @@ export const Card: React.FC<CardProps> = ({ id, text, userAnswer, callbackDROP})
         collect: (monitor) => ({
             isDragging: monitor.isDragging(),
         }),
-        end: (dropResult, monitor) => {
-            const { id: droppedId, originalIndex } = monitor.getItem()
+        end: (_dropResult, monitor) => {
             const didDrop = monitor.didDrop()
             if (didDrop) {
                 if (!userAnswer) {
@@ -57,7 +49,7 @@ export const Card: React.FC<CardProps> = ({ id, text, userAnswer, callbackDROP})
     
     const opacity = isDragging ? 0 : 1
     console.log(dragid + " ID " + id);
-    if (dragid == id) {
+    if (dragid === id) {
         return ( 
             <div ref={(node) => drag(drop(node))} >
             </div>

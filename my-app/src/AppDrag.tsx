@@ -12,7 +12,8 @@ import { QuestionState, Difficulty } from './api';
 
 // Styles
 import { GlobalStyle, Wrapper } from './AppDrag.styles';
-//Dragable 
+
+//Drag and Drop
 import { DndProvider } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 

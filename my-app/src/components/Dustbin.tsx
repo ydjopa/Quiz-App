@@ -14,7 +14,7 @@ let AnswerDone = false;
 export const AnsWerBox = () => {
     const [{ canDrop, isOver, dropResult }, drop] = useDrop({
         accept: ItemTypesNew.CARD,
-        drop(item, monitor) {
+        drop(_item, monitor) {
             Answername = monitor.getItem().id;
             AnswerDone = monitor.getItem().userAnswer;
             if (!AnswerDone) {
@@ -45,7 +45,7 @@ export const AnsWerBox = () => {
 
     if (dropResult != null && AnswerDone ) {
 
-        if (PreviousAnswer != "" && AnswerDone) {
+        if (PreviousAnswer !== "" && AnswerDone) {
             return (
                 <div ref={drop} className="opacitycss">
                     <div className="sc-AxirZ eOexFn"><button value={PreviousAnswer} ><span>{PreviousAnswer}</span>
@@ -63,7 +63,7 @@ export const AnsWerBox = () => {
             )
         }
     }
-    else if (Answername != "" && !AnswerDone) {
+    else if (Answername !== "" && !AnswerDone) {
         PreviousAnswer = Answername;
         AnswerDone = true;
         return (
@@ -74,7 +74,7 @@ export const AnsWerBox = () => {
         )
     }
     else {
-        if (PreviousAnswer != "" && AnswerDone) {
+        if (PreviousAnswer !== "" && AnswerDone) {
             return (
                 <div ref={drop} className="opacitycss">
                     <div className="sc-AxirZ eOexFn"><button value={PreviousAnswer} ><span>{PreviousAnswer}</span>

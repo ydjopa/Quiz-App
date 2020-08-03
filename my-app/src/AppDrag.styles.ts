@@ -1,5 +1,6 @@
 // Using Global Style
 import styled, { createGlobalStyle } from 'styled-components';
+
 // Using Background Image
 import BgImage from './img/bg.jpg';
 
