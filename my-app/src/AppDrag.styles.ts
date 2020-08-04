@@ -137,6 +137,7 @@ span {
     rgba(86, 204, 255),
     rgba(110, 175, 180) 80%
   );
+  box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0px;
 }
 
 .col-1,
@@ -212,7 +213,5 @@ span {
   position: relative;
   width: 100%;
   min-height: 1px;
-  padding-right: 50px;
-  /* padding-left: 15px; */
 }
 `;
