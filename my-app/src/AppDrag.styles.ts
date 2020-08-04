@@ -121,6 +121,24 @@ span {
   max-width: 200px;
 }
 
+.opacitycss {
+  border: 2px solid #f76420;
+  height: 12rem;
+  width: 12rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  line-height: normal;
+  width: 400px;
+  background: linear-gradient(
+    170deg,
+    rgba(86, 204, 255),
+    rgba(110, 175, 180) 80%
+  );
+}
+
 .col-1,
 .col-2,
 .col-3,

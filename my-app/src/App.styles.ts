@@ -114,6 +114,4 @@ span {
   max-width: 200px;
 }
 
-
-
 `;
