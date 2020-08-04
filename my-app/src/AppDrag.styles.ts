@@ -131,7 +131,8 @@ span {
   text-align: center;
   font-size: 1rem;
   line-height: normal;
-  width: 400px;
+  width: 420px;
+  margin: 5px 30px;
   background: linear-gradient(
     170deg,
     rgba(86, 204, 255),
