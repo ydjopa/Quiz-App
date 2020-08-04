@@ -50,7 +50,7 @@ align-items: center;
 
 .score {
   color: #f76020;
-  font-size: 3rem;
+  font-size: 35px;
   margin: 30px;
   background: linear-gradient(
     220deg,
@@ -64,7 +64,7 @@ align-items: center;
 h1 {
   font-family: Montserrat, Fascinated Inline, Heattenschweiler,
     "Arial Narrow Bold", sans-serif;
-  font-size: 75px;
+  font-size: 40px;
   font-weight: bolder;
   text-align: center;
   margin: 0px;

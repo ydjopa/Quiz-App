@@ -41,18 +41,6 @@ align-items: center;
   color: #c97b1c;
 }
 
-.score {
-  color: #f76020;
-  font-size: 3rem;
-  margin: 30px;
-  background: linear-gradient(
-    220deg,
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0.2) 180%
-  );
-  padding: 10px;
-  -webkit-text-stroke: 2px #f7be20;
-}
 
 h1 {
   font-family: Montserrat, Fascinated Inline, Heattenschweiler,
@@ -113,5 +101,4 @@ span {
 .start {
   max-width: 200px;
 }
-
 `;
