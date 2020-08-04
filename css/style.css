@@ -24,6 +24,7 @@ header.active {
     font-size: 1.6em;
     font-weight: 600;
     text-transform: uppercase;
+    transition: all 0.9s ease;
 }
 
 .navbar .navbar-brand img {
@@ -78,7 +79,7 @@ header.active {
     color: #000000;
     transition: all 0.5s ease;
     padding: 15px 0;
-    opacity: .75;
+    opacity: 1;
     font-size: 1.2em;
 }
 
@@ -281,7 +282,8 @@ header.nav-fixed {
     }
 }
 
-.opacitycss {
+
+/*.opacitycss {
     background-color: olivedrab;
     height: 12rem;
     width: 12rem;
@@ -293,7 +295,7 @@ header.nav-fixed {
     font-size: 1rem;
     line-height: normal;
     width: 500px;
-}
+}*/
 
 .AnswerBox {
     width: 500px;
