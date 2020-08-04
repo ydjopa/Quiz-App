@@ -64,11 +64,11 @@ align-items: center;
 h1 {
   font-family: Montserrat, Fascinated Inline, Heattenschweiler,
     "Arial Narrow Bold", sans-serif;
-  font-size: 40px;
+  font-size: 55px;
   font-weight: bolder;
   text-align: center;
-  margin: 0px;
-  padding: 10px;
+  margin-top: 20px;
+  padding: 20px;
   background: linear-gradient(
     170deg,
     rgba(0, 0, 0, 0.75),
