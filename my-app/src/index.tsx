@@ -14,7 +14,7 @@ class Index extends React.Component {
                 
                 <div>
                     <Header />
-                    <HashRouter /*baseName="/" hashType="slash"*/>
+                    <HashRouter baseName="/" hashType="slash">
                         <Route exact path="/" component={App} />
                         <Route exact path="/App" component={App} />
                         <Route path="/AppDrag" component={AppDrag} />

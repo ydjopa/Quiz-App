@@ -48,16 +48,4 @@ button {
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
 }
 
-.opacitycss {
-    background-color: olivedrab;
-    height: 12rem;
-    width: 12rem;
-    margin-right: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    font-size: 1rem;
-    line-height: normal;
-    width: 500px;
 `;

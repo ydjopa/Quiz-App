@@ -15,6 +15,9 @@
     "handdrag",
     "opacitycss",
     "quizicon",
-    "scrollbar"
-  ]
+    "scrollable",
+    "scrollbar",
+    "unstyled"
+  ],
+  "git.ignoreLimitWarning": true
 }
