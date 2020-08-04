@@ -5,23 +5,23 @@ import App from './App';
 // Components Import
 import Header from './components/header';
 import Footer from './components/footer';
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch, Link } from "react-router-dom";
 
 class Index extends React.Component {
     render() {
         return (
             <div>
-                <BrowserRouter>
-                    <div>
-                        <Header />
-                        <Switch>
-                            <Route exact path="/" component={App} />
-                            <Route exact path="/App" component={App} />
-                            <Route path="/AppDrag" component={AppDrag} />
-                        </Switch>
-                        <Footer />
-                    </div>
-                </BrowserRouter>
+                
+                <div>
+                    <Header />
+                    <HashRouter /*baseName="/" hashType="slash"*/>
+                        <Route exact path="/" component={App} />
+                        <Route exact path="/App" component={App} />
+                        <Route path="/AppDrag" component={AppDrag} />
+                    </HashRouter>
+                    <Footer />
+                </div>
+                
             </div>
         );
     }

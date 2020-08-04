@@ -119,7 +119,7 @@ function App() {
             <div className="container py-5 my-5">
                 <Wrapper>
 
-                    <h1>TRIVIA FUN QUIZ -Drag</h1>
+                    <h1>DRAG AND DROP</h1>
                     {endOfQuiz || userAnswers.length === Total_Questions ? (
                         <button className="start" onClick={startQuiz}>
                             Start Quiz

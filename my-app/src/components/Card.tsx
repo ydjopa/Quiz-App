@@ -47,7 +47,7 @@ export const Card: React.FC<CardProps> = ({ id, text, userAnswer, callbackDROP})
         },
     })
     
-    const opacity = isDragging ? 0 : 1
+    //const opacity = isDragging ? 0 : 1
     console.log(dragid + " ID " + id);
     if (dragid === id) {
         return ( 

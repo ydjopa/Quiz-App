@@ -5,7 +5,7 @@ import { AnswerObject } from '../App';
 // Styles
 import { Wrapper, ButtonWrapper } from './QuizCard.styles'; 
 import { AnsWerBox } from './Dustbin';
-import { Button } from './Button';
+//import { Button } from './Button';
 import { Card } from "./Card";
 
 
@@ -24,11 +24,11 @@ type Props = {
 const QuizCard: React.FC<Props> = ({
   questions,
   answers,
-    callback,
-    moveNext,
+  callback,
+  moveNext,
   userAnswer,
   questionNumber,
-    totalQuestions
+  totalQuestions
 
 }) => (
 
