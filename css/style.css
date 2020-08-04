@@ -1,203 +1,226 @@
 ﻿body {
-  font-family: 'Poppins', sans-serif; }
-  
+    font-family: 'Poppins', sans-serif;
+}
+
+
 /*===================================*
 01. HEADER
 *===================================*/
+
 header {
-  transition: all 0.4s ease 0s;
-  background: #ffffff; 
-  padding: 10px 10px;
-  }
+    transition: all 0.4s ease 0s;
+    background: #ffffff;
+    padding: 10px 10px;
+}
 
 header.active {
-  background: #121833; 
-  
+    background: #121833;
 }
 
 .navbar .navbar-brand {
-  margin: 0;
-  padding: 0;
-  font-size: 1.6em;
-  font-weight: 600;
-  text-transform: uppercase; }
+    margin: 0;
+    color: #000;
+    padding: 0;
+    font-size: 1.6em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
 .navbar .navbar-brand img {
-  max-width: 200px;
-  transition: all 0.5s ease; }
+    max-width: 200px;
+    transition: all 0.5s ease;
+}
 
 .navbar-expand-lg .navbar-nav .nav-item {
-  padding: 0 12px;
-  transition: all 0.5s ease; }
+    padding: 0 12px;
+    transition: all 0.5s ease;
+}
 
-    .navbar-expand-lg .navbar-nav .nav-item.active a {
-        color: #005495;
-        opacity: 1;
-        font-weight: bold;
-        border-bottom: 2px solid #005495;
-    }
+.navbar-expand-lg .navbar-nav .nav-item.active a {
+    color: #005495;
+    opacity: 1;
+    font-weight: bold;
+    border-bottom: 2px solid #005495;
+}
 
 .navbar-dark .navbar-toggler {
-  outline: none; }
+    outline: none;
+}
 
 .navbar-expand-lg .navbar-nav .nav-item:last-child {
-  padding-right: 0; }
+    padding-right: 0;
+}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu {
-  transform: translateX(-50px); }
+    transform: translateX(-50px);
+}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu:before {
-  content: '';
-  width: 14px;
-  height: 14px;
-  background: #fff;
-  border: 1px solid #fff;
-  display: block;
-  border-right: none;
-  border-bottom: none;
-  transform: translateX(-50%) rotateZ(45deg);
-  border-radius: 3px;
-  position: absolute;
-  top: -6px;
-  left: 49%;
-  z-index: 1001; }
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid #fff;
+    display: block;
+    border-right: none;
+    border-bottom: none;
+    transform: translateX(-50%) rotateZ(45deg);
+    border-radius: 3px;
+    position: absolute;
+    top: -6px;
+    left: 49%;
+    z-index: 1001;
+}
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #000000;
-  transition: all 0.5s ease;
-  padding: 15px 0;
-  opacity: .75;
-  font-size:1.2em;
-
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    transition: all 0.5s ease;
+    padding: 15px 0;
+    opacity: .75;
+    font-size: 1.2em;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-        color: #005495;
-        opacity: 1;
-        border-bottom: 2px solid #005495;
+    color: #005495;
+    opacity: 1;
+    border-bottom: 2px solid #005495;
 }
 
 header.nav-fixed {
- 
     background-color: #ffffff;
     box-shadow: 0 0 5px 3px RGBA(114, 114, 114, 0.1);
 }
 
 
-
-
 /*===================================*
 0.4 FOOTER
 *===================================*/
+
 #site-footer .top-footer {
-  padding: 1.25em 0;
-  background: #131313; 
-  }
+    padding: 1.25em 0;
+    background: #131313;
+}
 
 #site-footer .footer-title {
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-bottom: 1.25em;
-  color: #fff;
-  font-size: 20px; }
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 1.25em;
+    color: #fff;
+    font-size: 20px;
+}
 
 #site-footer .footer-list {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 #site-footer .footer-logo a {
-  font-size: 1.6em;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #fff; }
+    font-size: 1.6em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
 
 #site-footer .footer-list li {
-  padding: 0.25em 0; }
+    padding: 0.25em 0;
+}
 
 #site-footer .footer-list .li-icon::before {
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  display: none;
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  content: "\f105"; }
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    display: none;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+}
 
 #site-footer .footer-list .li-icon {
-  margin-right: 10px; }
+    margin-right: 10px;
+}
 
 #site-footer .newsletter-form {
-  position: relative; }
+    position: relative;
+}
 
 #site-footer .newsletter-form .input-rounded {
-  border: 0;
-  padding: 0.85em 1.25em;
-  width: 100%;
-  background-color: #fff;
-  color: #7a7a7a;
-  border-radius: 8px; }
+    border: 0;
+    padding: 0.85em 1.25em;
+    width: 100%;
+    background-color: #fff;
+    color: #7a7a7a;
+    border-radius: 8px;
+}
 
 #site-footer .newsletter-form .input-rounded:focus {
-  outline: none; }
+    outline: none;
+}
 
 #site-footer .newsletter-form .btn {
-  padding: 7px 30px;
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  bottom: 5px;
-  height: auto;
-  color: #fff;
-  border: 0; }
+    padding: 7px 30px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    height: auto;
+    color: #fff;
+    border: 0;
+}
 
 #site-footer .newsletter-form .btn-style:hover {
-  transform: translateY(0px); }
+    transform: translateY(0px);
+}
 
 #site-footer .bottom-footer {
-  font-size: 0.875em;
-  background-color: #0f0f0f;
-  padding: 1.25em 0; 
-  
+    font-size: 0.875em;
+    background-color: #0f0f0f;
+    padding: 1.25em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+}
 
 #site-footer .social-item {
-  padding-left: 0.5em;
-  padding-right: 0.5em; }
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
 
 #site-footer .social-item img {
-  max-width: 1em; }
+    max-width: 1em;
+}
 
 #site-footer p,
 #site-footer a {
-  margin: 0;
-  color: #999; }
+    margin: 0;
+    color: #999;
+}
 
 #site-footer a:hover {
-  color: #fff; }
+    color: #fff;
+}
 
 #site-footer ul.footer-menu {
-  text-align: right;
-  list-style: none;
-  margin: 0;
-  padding: 0; }
+    text-align: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 #site-footer ul.footer-menu li {
-  margin-left: 1em;
-  display: inline-block; }
+    margin-left: 1em;
+    display: inline-block;
+}
 
 #site-footer ul.footer-menu li:first-child {
-  margin-left: 0; }
-  
-  
-  
+    margin-left: 0;
+}
+
+
 /*-- //move top --*/
 
 
@@ -206,62 +229,53 @@ header.nav-fixed {
 /*===================================*/
 
 @media (min-width: 576px) {
-  #site-footer .copyright,
-  #site-footer ul.footer-menu {
-    text-align: left; }
-
-header {
-    padding: 10px 25px;
-}
+    #site-footer .copyright,
+    #site-footer ul.footer-menu {
+        text-align: left;
+    }
+    header {
+        padding: 10px 25px;
+    }
     .MainBox {
         min-width: 576px;
     }
-
     .AnswerBox {
         width: 100%;
-        float:left
+        float: left
     }
-
-
     .QuestionBox {
         min-width: 100%;
     }
-
-	
 }
-	
-@media (min-width: 768px) {
-  #site-footer .copyright,
-  #site-footer ul.footer-menu {
-    text-align: left; }
 
+@media (min-width: 768px) {
+    #site-footer .copyright,
+    #site-footer ul.footer-menu {
+        text-align: left;
+    }
     .MainBox {
         min-width: 768px;
     }
-
-	}
+}
 
 @media (min-width: 992px) {
- #site-footer .copyright,
-  #site-footer ul.footer-menu {
-    text-align: left; }
-
+    #site-footer .copyright,
+    #site-footer ul.footer-menu {
+        text-align: left;
+    }
     .MainBox {
         min-width: 992px;
     }
-
 }
 
 @media (min-width: 1200px) {
- #site-footer .copyright,
-  #site-footer ul.footer-menu {
-    text-align: left; 
-	} 
-	
-	header {
-    padding: 10px 105px;
+    #site-footer .copyright,
+    #site-footer ul.footer-menu {
+        text-align: left;
     }
-
+    header {
+        padding: 10px 105px;
+    }
     .MainBox {
         min-width: 1000px;
     }
@@ -285,16 +299,6 @@ header {
     width: 500px;
 }
 
-
 .QuestionBox {
     min-width: 200px;
 }
-
-
-
-
-
-
-
-
-  
