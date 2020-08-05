@@ -243,7 +243,7 @@ header.nav-fixed {
     .AnswerBox {
         width: 100%;
         float: left;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .QuestionBox {
         min-width: 100%;
@@ -264,6 +264,7 @@ header.nav-fixed {
     .AnswerBox {
         width: 100%;
         float: left;
+        padding-left: 0px;
     }
     .QuestionBox {
         width: 100%;
@@ -282,6 +283,7 @@ header.nav-fixed {
     .AnswerBox {
         width: 100%;
         float: left;
+        padding-left: 0px;
     }
     .QuestionBox {
         width: 100%;
@@ -300,6 +302,7 @@ header.nav-fixed {
     .AnswerBox {
         min-width: 200px;
         float: right;
+        padding-left: 0px;
     }
     .QuestionBox {
         min-width: 200px;
@@ -322,6 +325,7 @@ header.nav-fixed {
     .AnswerBox {
         min-width: 200px;
         float: right;
+        padding-left: 0px;
     }
     .QuestionBox {
         min-width: 200px;
@@ -341,7 +345,7 @@ header.nav-fixed {
     font-size: 1rem;
     line-height: normal;
     width: 415px;
-    margin: 5px 31px;
+    margin: 5px 40px;
     background: linear-gradient(170deg, rgba(86, 204, 255), rgba(110, 175, 180) 80%);
     box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0px;
 }
