@@ -11,7 +11,6 @@ class Index extends React.Component {
     render() {
         return (
             <div>
-                
                 <div>
                     <Header />
                     <HashRouter baseName="/" hashType="slash">
@@ -21,7 +20,6 @@ class Index extends React.Component {
                     </HashRouter>
                     <Footer />
                 </div>
-                
             </div>
         );
     }
