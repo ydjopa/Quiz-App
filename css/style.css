@@ -96,7 +96,7 @@ header.nav-fixed {
 
 
 /*===================================*
-0.4 FOOTER
+02. FOOTER
 *===================================*/
 
 #site-footer .top-footer {
@@ -225,9 +225,9 @@ header.nav-fixed {
 /*-- //move top --*/
 
 
-/*===================================*
-07. Responsive Query For header And FOOTER
-/*===================================*/
+/*==========================================*
+03. Responsive Query For header And FOOTER
+/*=========================================*/
 
 @media (max-width: 575px) {
     #site-footer .copyright,
