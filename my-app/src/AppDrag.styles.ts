@@ -121,24 +121,4 @@ span {
   max-width: 200px;
 }
 
-.opacitycss {
-  border: 2px solid #f76420;
-  height: 12rem;
-  width: 12rem;
-  margin-right: 1.5rem;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  text-align: center;
-  font-size: 1rem;
-  line-height: normal;
-  width: 410px;
-  margin: 5px 30px;
-  background: linear-gradient(
-    170deg,
-    rgba(86, 204, 255),
-    rgba(110, 175, 180) 80%
-  );
-  box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0px;
-}
-
 `;

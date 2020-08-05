@@ -19,12 +19,12 @@ header.active {
 
 .navbar .navbar-brand {
     margin: 0;
-    color: #000;
     padding: 0;
+    color: #121833;
     font-size: 1.6em;
     font-weight: 600;
     text-transform: uppercase;
-    transition: all 0.9s ease;
+    transition: all 0.5s ease;
 }
 
 .navbar .navbar-brand img {
@@ -76,7 +76,7 @@ header.active {
 .navbar-expand-lg .navbar-nav .nav-link {
     font-weight: bold;
     text-transform: uppercase;
-    color: #000000;
+    color: #121833;
     transition: all 0.5s ease;
     padding: 15px 0;
     opacity: 1;
@@ -229,10 +229,10 @@ header.nav-fixed {
 07. Responsive Query For header And FOOTER
 /*===================================*/
 
-@media (min-width: 576px) {
+@media (max-width: 575px) {
     #site-footer .copyright,
     #site-footer ul.footer-menu {
-        text-align: left;
+        text-align: center;
     }
     header {
         padding: 10px 25px;
@@ -242,37 +242,76 @@ header.nav-fixed {
     }
     .AnswerBox {
         width: 100%;
-        float: left
+        float: left;
+        margin-left: 20px;
     }
     .QuestionBox {
         min-width: 100%;
     }
 }
 
+@media (min-width: 576px) {
+    #site-footer .copyright,
+    #site-footer ul.footer-menu {
+        text-align: center;
+    }
+    header {
+        padding: 10px 25px;
+    }
+    .MainBox {
+        min-width: 576px;
+    }
+    .AnswerBox {
+        width: 100%;
+        float: left;
+    }
+    .QuestionBox {
+        width: 100%;
+        margin-left: 47px;
+    }
+}
+
 @media (min-width: 768px) {
     #site-footer .copyright,
     #site-footer ul.footer-menu {
-        text-align: left;
+        text-align: center;
     }
     .MainBox {
         min-width: 768px;
+    }
+    .AnswerBox {
+        width: 100%;
+        float: left;
+    }
+    .QuestionBox {
+        width: 100%;
+        margin-left: 47px;
     }
 }
 
 @media (min-width: 992px) {
     #site-footer .copyright,
     #site-footer ul.footer-menu {
-        text-align: left;
+        text-align: center;
     }
     .MainBox {
         min-width: 992px;
+    }
+    .AnswerBox {
+        min-width: 200px;
+        float: right;
+    }
+    .QuestionBox {
+        min-width: 200px;
+        float: left;
+        margin-left: 0px;
     }
 }
 
 @media (min-width: 1200px) {
     #site-footer .copyright,
     #site-footer ul.footer-menu {
-        text-align: left;
+        text-align: center;
     }
     header {
         padding: 10px 105px;
@@ -280,27 +319,33 @@ header.nav-fixed {
     .MainBox {
         min-width: 1000px;
     }
+    .AnswerBox {
+        min-width: 200px;
+        float: right;
+    }
+    .QuestionBox {
+        min-width: 200px;
+        float: left;
+        margin-left: 0px;
+    }
 }
 
-
-/*.opacitycss {
-    background-color: olivedrab;
+.opacitycss {
+    border: 2px solid #f76420;
     height: 12rem;
     width: 12rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
-    color: white;
-    padding: 1rem;
+    padding-top: 70px;
     text-align: center;
     font-size: 1rem;
     line-height: normal;
-    width: 500px;
-}*/
-
-.AnswerBox {
-    width: 500px;
+    width: 415px;
+    margin: 5px 31px;
+    background: linear-gradient(170deg, rgba(86, 204, 255), rgba(110, 175, 180) 80%);
+    box-shadow: rgba(0, 0, 0, 0.15) 2px 2px 0px;
 }
 
-.QuestionBox {
-    min-width: 200px;
+.copyright {
+    text-align: center
 }
