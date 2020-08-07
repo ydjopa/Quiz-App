@@ -86,7 +86,7 @@ export const AnsWerBox = () => {
 
             return (
                 <div ref={drop} className="opacitycss">
-                    <div className="sc-AxirZ eOexFn"><button value='' ><span>Drag and drop you answer here</span>
+                    <div className="sc-AxirZ eOexFn"><button value='' ><span>Drag and drop your answer here</span>
                     </button></div>
                 </div>
             )
