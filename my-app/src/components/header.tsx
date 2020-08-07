@@ -11,7 +11,7 @@ class Header extends React.Component {
         return (
           <header className="fixed-top">
             <nav className="navbar navbar-expand-lg navbar-dark">
-              <a className="navbar-brand" href="/App">
+              <a className="navbar-brand" href=" ">
                 <span className="fa fa-shield"></span> TRIVIA QUIZ
               </a>
               <button
