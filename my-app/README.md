@@ -14,6 +14,8 @@ React Webpage: https://ydjopa.github.io/Quiz-App/
 - HTML
 - CSS
 - JavaScript
+- Bootstrap
+- Font Awesome
 - TypeScript and JavaScript dictionary for cspell.
 
 In the project directory, you can run:
